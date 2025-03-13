@@ -6,13 +6,16 @@ import { MenuBarComponent } from '../../components/menu-bar/menu-bar.component';
 
 @Component({
   selector: 'app-home',
-  standalone: true,  // ✅ Necessário para permitir `imports`
-  imports: [MenuTitleComponent,
-    SmallCardComponent,
-    BigCardComponent,
-    MenuBarComponent
-  ],  // ✅ Importando os componentes utilizados no template
+  standalone: true,  // ✅ Mantido como standalone
+  imports: [
+    MenuTitleComponent,  // ✅ Certifique-se de que é standalone
+    SmallCardComponent,  // ✅ Certifique-se de que é standalone
+    BigCardComponent,    // ✅ Certifique-se de que é standalone
+    MenuBarComponent     // ✅ Certifique-se de que é standalone
+  ],
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']  // ✅ Correção: era "styleUrl", mas deve ser "styleUrls"
+  styleUrls: ['./home.component.css']
 })
-export class HomeComponent {}
+export class HomeComponent {
+  // mostrarCard: boolean = true;
+}

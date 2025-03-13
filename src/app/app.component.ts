@@ -10,11 +10,11 @@ import { HomeComponent } from './pages/home/home.component';
   selector: 'app-root',
   standalone: true, // 🚀 Necessário para usar "imports" diretamente no componente
   imports: [
-    RouterOutlet,
-    SmallCardComponent,
-    BigCardComponent,
-    MenuTitleComponent,
-    MenuBarComponent,
+    // RouterOutlet,
+    // SmallCardComponent,
+    // BigCardComponent,
+    // MenuTitleComponent,
+    // MenuBarComponent,
     HomeComponent
   ],
   templateUrl: './app.component.html',

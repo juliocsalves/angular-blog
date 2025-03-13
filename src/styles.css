@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/carnivalee-freakshow');
+
 * {
   margin: 0; /* Remove a margem padrão de todos os elementos */
   padding: 0; /* Remove o preenchimento padrão de todos os elementos */
@@ -5,3 +7,5 @@
   background-color: #111; /* Define o fundo de todos os elementos para um tom escuro (#111) */
   color: white; /* cor da fonte branca */
   }
+
+

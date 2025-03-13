@@ -1,3 +1,7 @@
+.container__menu-bar {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .container__menu-bar > ul {
   display: flex;
   flex-direction: row;
@@ -14,5 +18,5 @@
 
 .container__menu-bar > ul > li > a:hover {
   text-decoration: none;
-  color: rgb(255, 255, 190);
+  color: rgb(209, 209, 209);
 }
